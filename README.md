@@ -31,7 +31,28 @@ java -version
 
 
 5. Create new Maven Project (Import your open jdk1.8.0_202.jdk as 'Project SDK' when creating project for the first time)
+
 5a. Double check SDK was picked up by IntelliJ
+
 <img width="417" alt="File_ProjectStructure" src="https://user-images.githubusercontent.com/26292532/181937740-fbce2302-25ad-4350-91e9-16e6b74db331.png">
 
 <img width="803" alt="SDKEdit" src="https://user-images.githubusercontent.com/26292532/181937760-9650b929-5284-4b60-8c2f-e0d8013f092d.png">
+
+**Compile using Maven & Run the jar locally**
+
+Consider
+
+i) Mark directory as source (right click on Java, and navigate to Mark as source dir)
+
+ii) Might need to click Build prior to compiling using Maven
+
+Steps
+1) Compile jar using Maven
+```
+mvn package
+```
+
+2) Test class (TIP: copy jar path from /target folder by 'Shift+Cmd+C')
+```
+java -cp path/to/jar HelloWorld.HelloWorld
+```
