@@ -3,6 +3,7 @@
 Java is a statically typed language which means variables types must be declared prior to compilation. This is different from dynamically typed where variables are evaluated at runtime. 
 
 **Get Started**
+
 **1. Install Java Open JDK 8** on your local machine. 
 For Mac: https://www.oracle.com/ca-en/java/technologies/javase/javase8-archive-downloads.html
 
@@ -25,3 +26,12 @@ export PATH=$PATH:$JAVA_HOME/bin
 ```
 java -version
 ```
+
+4. Install IntelliJ 
+
+
+5. Create new Maven Project (Import your open jdk1.8.0_202.jdk as 'Project SDK' when creating project for the first time)
+5a. Double check SDK was picked up by IntelliJ
+<img width="417" alt="File_ProjectStructure" src="https://user-images.githubusercontent.com/26292532/181937740-fbce2302-25ad-4350-91e9-16e6b74db331.png">
+
+<img width="803" alt="SDKEdit" src="https://user-images.githubusercontent.com/26292532/181937760-9650b929-5284-4b60-8c2f-e0d8013f092d.png">
