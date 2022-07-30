@@ -38,8 +38,10 @@ java -version
 
 <img width="803" alt="SDKEdit" src="https://user-images.githubusercontent.com/26292532/181937760-9650b929-5284-4b60-8c2f-e0d8013f092d.png">
 
-Compile using Maven & Run the jar locally
+**Compile using Maven & Run the jar locally**
+
 Consider
+
 i) Mark directory as source (right click on Java, and navigate to Mark as source dir)
 ii) Might need to Build prior to compiling using Maven
 
