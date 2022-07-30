@@ -2,6 +2,8 @@
 
 Java is a statically typed language which means variables types must be declared prior to compilation. This is different from dynamically typed where variables are evaluated at runtime. 
 
+Note: making a variable 'private' ensures only accessible inside the Java class itself. 'public' accessible from other Classes in other packages.
+
 **Get Started**
 
 **1. Install Java Open JDK 8** on your local machine. 
