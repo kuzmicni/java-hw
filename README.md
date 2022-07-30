@@ -43,8 +43,10 @@ java -version
 Consider
 
 i) Mark directory as source (right click on Java, and navigate to Mark as source dir)
-ii) Might need to Build prior to compiling using Maven
 
+ii) Might need to click Build prior to compiling using Maven
+
+Steps
 1) Compile jar using Maven
 ```
 mvn package
