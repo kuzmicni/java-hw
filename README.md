@@ -12,6 +12,8 @@ Shortcuts:
 
 **Get Started**
 
+**0. Java 11 installation: https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE
+
 **1. Install Java Open JDK 8** on your local machine. 
 For Mac: https://www.oracle.com/ca-en/java/technologies/javase/javase8-archive-downloads.html
 
